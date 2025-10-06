@@ -1,1 +1,63 @@
-/*  your css code here. If applicable */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f9fb;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 40px 60px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 80%;
+  max-width: 700px;
+}
+
+#verification_heading {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#verification_subtext {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.code-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.code {
+  width: 60px;
+  height: 70px;
+  font-size: 40px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.code:focus {
+  outline: 2px solid #007bff;
+  border-color: #007bff;
+}
+
+.note {
+  background: #f2f2f2;
+  padding: 10px;
+  border-radius: 6px;
+  color: #777;
+  font-size: 14px;
+}
